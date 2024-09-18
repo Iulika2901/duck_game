@@ -1,0 +1,29 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: url("fundal.jpeg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+#board {
+    /* background-color: skyblue; */
+    background-image: url("./fundat_simplu.png");
+    background-color: rgb(87, 134, 221);
+    border-style: double;
+    border-radius: 10px;
+    border-bottom: 6px solid rgb(11, 71, 211);
+    border-left: 6px solid blue;
+    border-right: 6px solid blue;
+    border-top: 6px solid blue;
+    background-color: blue;
+}
+
+h2{
+    color: rgb(80, 198, 234);
+    font-style: Tahoma;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    text-decoration-line: double;
+    text-decoration-color: black;
+}
