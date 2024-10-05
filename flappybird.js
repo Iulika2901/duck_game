@@ -107,12 +107,13 @@ function update() {
     }
 
     //score
-    context.fillStyle = "white";
     context.font="45px sans-serif";
     context.fillText(score, 5, 45);
+    context.fillStyle = "black";
 
     if (gameOver) {
         context.fillText("GAME OVER", 5, 90);
+        context.fillStyle = "black";
     }
 }
 
